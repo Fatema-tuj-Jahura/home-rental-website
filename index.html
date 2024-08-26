@@ -186,7 +186,7 @@
                         <div class=" flex flex-col items-start gap-4">
                             <h4 class="text-2xl font-extrabold text-[#494949]">Commercial</h4>
                             <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                            <h5 class="text-2xl font-extrabold text-[#212121]">View Details <i class="fa-solid fa-arrow-right -rotate-45 w-8 h-8 rounded-full bg-[#ABEF5F] text-black pl-1 pt-0.5 pr-0.5" ></i></h5>
+                            <h5 class="text-xl font-extrabold text-[#212121]">View Details <i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7 rounded-full bg-[#ABEF5F] text-black pl-1 pt-0.5 pr-0.5" ></i></h5>
                         </div>
                     </div>
                     <div class="col-span-1 md:col-span-4 rounded-2xl bg-white shadow-md p-4">
@@ -202,7 +202,7 @@
                         <div class=" flex flex-col items-start gap-4">
                             <h4 class="text-2xl font-extrabold text-[#494949]">Commercial</h4>
                             <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                            <h5 class="text-2xl font-extrabold text-[#212121]">View Details <i class="fa-solid fa-arrow-right -rotate-45 w-8 h-8  rounded-full bg-[#ABEF5F] text-black pl-1 pt-0.5 pr-0.5" ></i></h5>
+                            <h5 class="text-xl font-extrabold text-[#212121]">View Details <i class="fa-solid fa-arrow-right -rotate-45 w-7 h-7  rounded-full bg-[#ABEF5F] text-black pl-1 pt-0.5 pr-0.5" ></i></h5>
                         </div>
                     </div>
                     <div class="col-span-1 md:col-span-3 rounded-2xl bg-white shadow-md p-4">
@@ -210,18 +210,25 @@
                     </div>
                 </div>
                 <!-- Bonus part -->
+                 <div class="flex items center pb-3">
+                    <button class="btn btn-wide lg: mt-6 mb-8 text-xl font-bold rounded-3xl border-[#ABEF5F] bg-[#c6f88d]">Services & Policies <i class="fa-solid fa-arrow-right  w-6 h-6 rounded-full bg-[#ABEF5F] text-black rotate-90 pl-1 pt-0.5 pr-0.5" ></i></button>
+                 </div>
+
                 <div class="flex flex-col-reverse md:flex-row gap-7 mb-5">
                     <!-- image -->
                      <div class="flex flex-col justify-evenly gap-2">
-                        <div class="col-span-2 ">
-                            <img class="rounded-2xl w-full opacity-70" src="./assets/pool.jpg" alt="">
+                        <div class="col-span-2 relative">
+                            <img class=" rounded-2xl w-full brightness-[70%]" src="./assets/pool.jpg" alt="">
+                            <p class="absolute top-[70%] left-[10%]  text-white text-lg lg:text-3xl font-extrabold">Pool View Villa</p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div class="col-span-1">
-                                <img class="rounded-2xl w-full opacity-75" src="./assets/luxurious-villa.jpg" alt="">
+                            <div class="col-span-1 relative">
+                                <img class="rounded-2xl w-full brightness-[70%]" src="./assets/luxurious-villa.jpg" alt="">
+                                <p class="absolute top-[65%] left-[10%] text-white text-lg lg:text-2xl font-extrabold">Luxurious Villa</p>
                             </div>
-                            <div class="col-span-1 ">
-                                <img class="rounded-2xl w-full h-4/5 opacity-70" src="./assets/Office.jpg" alt="">
+                            <div class="col-span-1 relative">
+                                <img class="rounded-2xl w-full h-4/5  brightness-[70%]" src="./assets/Office.jpg" alt="">
+                                <p class="absolute top-[65%] left-[10%] text-white text-lg lg:text-2xl font-extrabold">Furnished Office</p>
                             </div>
                         </div>
                      </div>
@@ -239,12 +246,12 @@
                     <div class="flex flex-col flex-start gap-4">
                         <h3 class="font-bold text-[#212121] text-2xl lg:text-4xl text-center">See our Services</h3>
                         <p class="text-sm text-center lg:text-base font-medium text-[#494949]">We value our each and every customer</p>
-                        <div class="grid grid-cols-1 gap-2">
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
                             <div class="rounded-xl bg-white shadow-md flex flex-col items-center gap-3 p-3">
                                 <i class="fa-regular fa-clock w-8 h-8 rounded-full bg-[#f7badb] text-pink-950 pt-2 pl-2"></i>
                                 <h4 class="text-xl font-bold text-[#212121]">Quality Services</h4>
                                 <p class="text-sm text-center lg:text-base font-medium text-[#494949]">It is a long established company to serve valuable customer</p>
-
                             </div>
                             <div class="rounded-xl bg-white shadow-md flex flex-col items-center gap-3 p-3">
                                 <i class="fa-solid fa-lock w-8 h-8 rounded-full bg-[#D8BFD8] text-purple-900 pt-2 pl-2"></i>
@@ -253,12 +260,26 @@
 
                             </div>
                         </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                            <div class="rounded-xl bg-white shadow-md flex flex-col items-center gap-3 p-3">
+                                <i class="fa-solid fa-money-check-dollar w-8 h-8 rounded-full bg-[#c4f8fa] text-green-600 pt-2 pl-2"></i>
+                                <h4 class="text-xl font-bold text-[#212121]">Financial services</h4>
+                                <p class="text-sm text-center lg:text-base font-medium text-[#494949]">It is a long established company to serve valuable customer</p>
+                            </div>
+                            <div class="rounded-xl bg-white shadow-md flex flex-col items-center gap-3 p-3">
+                                <i class="fa-solid fa-cash-register w-8 h-8 rounded-full bg-[#c6cff7] text-[#00008B] pt-2 pl-2"></i>
+                                <h4 class="text-xl font-bold text-[#212121] text-center">E-Commerece Platform</h4>
+                                <p class="text-sm text-center lg:text-base font-medium text-[#494949]">It is a long established company to serve valuable customer</p>
+
+                            </div>
+                        </div>
 
                     </div>
                     <!--image -->
-                    <div class="w-full md:w-1/2 h-full flex items-center rounded-xl bg-gradient-to-r from-[#F2F2F2] via-[#eee2d1] to-[#f5d3ac]">
-                        <img class="w-full" src="./assets/model.png" alt="">
+                    <div class="w-full h-full rounded-lg bg-gradient-to-r from-[#F2F2F2] via-[#fdf1ed] to-[#ffc583] flex items-center">
+                        <img class="w-full h-full" src="./assets/model.png" alt="">
                     </div>
+                    <!-- <button class="btn btn-wide">See More</button> -->
                 </div>
                 
             </section>
@@ -273,15 +294,15 @@
                     featuring weathered wood, metal accents.</p>    
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 pb-3">
-                    <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="number" name="" id="" placeholder="First Name*">
-                    <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="number" name="" id="" placeholder="Last Name*">
+                    <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="text" name="" id="" placeholder="First Name*">
+                    <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="text" name="" id="" placeholder="Last Name*">
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 pb-3">
                     <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="number" name="" id="" placeholder="Phone Number*">
-                    <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="number" name="" id="" placeholder="Email Number*">
+                    <input class="col-span-1 lg:col-span-4 rounded-3xl bg-white pl-2 py-3" type="text" name="" id="" placeholder="Email Number*">
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 pb-3">
-                    <input class="col-span-1 lg:col-span-8 rounded-3xl bg-white pl-2 py-20" type="number" name="" id="" placeholder="Write your message here">
+                    <input class="col-span-1 lg:col-span-8 rounded-3xl bg-white pl-2 py-20 text-start" type="text" name="" id="" placeholder="Write your message here">
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-8 pb-10 lg:pb-20">
                     <button class="col-span-1 lg:col-span-8 btn  text-xl font-extrabold text-[rgb(115, 115, 115)] bg-[#ABEF5F] rounded-3xl">Send Mail<i class="fa-solid fa-arrow-right -rotate-45 w-6 h-6 rounded-full bg-black text-white pl-1 pt-0.5 pr-0.5"></i></button>
@@ -290,6 +311,23 @@
             </section>
         </section>
         
-    </main>   
+    </main> 
+    <footer class="bg-black">
+        <section class="max-w-screen-xl mx-auto px-16 lg:px-28">
+            <div class="flex flex-col items-center gap-5 pt-5 lg:pt-10">
+                <h3 class="font-extrabold text-white text-2xl lg:text-3xl text-center"><i class="fa-solid fa-arrow-right -rotate-45 w-8 h-8 rounded-full bg-[#ABEF5F] text-black pl-1 pt-0.5 pr-0.5" ></i>  Rinterio</h3>
+                <p class="text-base font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+                    <a class="text-white" href="">Home</a>
+                    <a class="text-white" href="">Services</a>
+                    <a class="text-white" href="">Portfolio</a>
+                    <a class="text-white" href="">Blogs</a>
+                    <a class="text-white" href="">Contact Us</a>
+                </div>
+                <button class="btn btn-wide lg: mt-6 mb-8 text-xl font-bold rounded-3xl border-[#ABEF5F] bg-[#ABEF5F]">View Details <i class="fa-solid fa-arrow-right -rotate-45 w-6 h-6 rounded-full bg-black text-white pl-1 pt-0.5 pr-0.5" ></i></button>
+            </div>
+        </section>
+
+    </footer>  
 </body>
 </html>
